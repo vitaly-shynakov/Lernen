@@ -1,0 +1,131 @@
+
+
+
+body {
+  background: #e8e8e8;
+  margin-top: 163px;
+  margin-left: 326px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #273d46;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  list-style: none;
+  
+}
+
+li:before {
+    content: ' ';
+    display: inline-block;
+    background: url(../img/check_icon.png) no-repeat 0 1px;
+    padding-left: 35px;
+    height: 20px;
+        
+}
+
+li:hover::before {
+  content: ' ';
+  display: inline-block;
+  background: none;
+  padding-left: 35px;
+  height: 20px;
+  background: url(../img/check_icon\ \(2\).png) no-repeat 0 1px;
+}
+
+li:nth-child(1) {
+  text-decoration: line-through;  
+}
+
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+
+li:nth-child(3) {
+  font-style: italic;
+}
+
+
+li:nth-child(4) {
+  text-transform: uppercase;
+}
+
+
+li:hover {
+  color: #d55a5a; 
+  background: none;
+}
+
+
+
+button {
+  vertical-align: middle;
+  margin-top: 137px;
+  height: 44px;
+  width: 200px;
+  border-radius: 22px;
+  border-width: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  background: #7fbed5 url(../img/Shape_2.png) no-repeat 150px 13px;
+  padding-left: 25px;
+}
+
+
+
+button:hover {
+  background: #3a5856 url(../img/Shape_2.png) no-repeat 150px 13px;
+  box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+
+
+button:active {
+  background: #818181 url(../img/Shape_2.png) no-repeat 150px 13px;
+}
+
+input {
+  margin-top: 125px;
+  width: 292px;
+  height: 50px;
+  border: 1px solid #b0b0b0;
+  display: block;
+  margin-bottom: 118px;
+}
+
+input:hover {
+  box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+  border: 1px solid #7fbed5;
+}
+
+p {
+    width: 762px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial;
+    line-height: 28px;
+    margin-bottom: 43px;
+}
+
+p:nth-of-type(1)::first-letter {
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 200%;
+  color: red; 
+ }
+
+p:nth-of-type(2)::first-line {
+  color: red;
+}
