@@ -89,6 +89,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 .header_logo {
@@ -99,7 +100,7 @@ select {
 }
 .header_title {
     padding-top: 15vh;
-    height: 39vw;
+    
     color: #ffffff;
     font-family: sans-serif;
     font-size: 34px;
@@ -107,7 +108,7 @@ select {
     text-transform: uppercase;
     text-align: center;
     line-height: 40px;
-        letter-spacing: 5.43px
+    letter-spacing: 5.43px
 }
 .header_title p:nth-last-child(1) {
     text-transform: none;
@@ -121,10 +122,15 @@ select {
     margin-top: 4vh;
 }
 .read_more {
-    height: 70px;
-    width: 190px;
+    height: 47px;
+    width: 182px;
     border: solid 2px white;
+    margin-top: 18vh;
     margin-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .read_more a {
     color: #ffffff;
@@ -135,8 +141,12 @@ select {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.67px;
+    
 }
 .arrow_down {
+  width: 2vw;
+  height: 2vh;
+  background: url(../img/Arrow-down.png) no-repeat 8px -2px;
 }
 .body {
 }
