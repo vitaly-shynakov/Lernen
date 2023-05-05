@@ -80,6 +80,7 @@ select {
 
 .wrapper {
     max-width: 1931px;
+    margin: 0 auto;
     
 }
 .header {
@@ -89,6 +90,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 .header_logo {
@@ -99,7 +101,7 @@ select {
 }
 .header_title {
     padding-top: 15vh;
-    height: 39vw;
+    
     color: #ffffff;
     font-family: sans-serif;
     font-size: 34px;
@@ -107,7 +109,7 @@ select {
     text-transform: uppercase;
     text-align: center;
     line-height: 40px;
-        letter-spacing: 5.43px
+    letter-spacing: 5.43px
 }
 .header_title p:nth-last-child(1) {
     text-transform: none;
@@ -121,10 +123,15 @@ select {
     margin-top: 4vh;
 }
 .read_more {
-    height: 70px;
-    width: 190px;
+    height: 47px;
+    width: 182px;
     border: solid 2px white;
+    margin-top: 18vh;
     margin-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .read_more a {
     color: #ffffff;
@@ -135,34 +142,142 @@ select {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.67px;
+    
 }
 .arrow_down {
+  width: 2vw;
+  height: 2vh;
+  background: url(../img/Arrow-down.png) no-repeat 8px -2px;
 }
 .body {
+  
 }
 .about {
+  height: 100vh;
+  
+  
 }
 .menu {
+  height: 5.55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
+
+
 .about_menu_buttom {
+ 
 }
+
+.about_menu_buttom a {
+  color: #3c3c3c;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 22px 25px;
+}
+
+.about_menu_buttom a:hover {
+  font-weight: 700;
+  color: #ada074;
+}
+.line_menu {
+  height: 1px;
+  width: 100vw;
+  border: solid 1px #eaeaea;
+}
+
 .title {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
+.about .title {
+  padding-top: 12.04vh;
+  padding-bottom: 3.24vh;
+  
+}
+
 .line {
+    border:solid 1px black;
+    width: 4.22vw;
+    margin: 0 auto;
+  
+
 }
 .about_text {
+  width: 52vw;
+  margin: 0 auto;
+  padding-top: 3.42vh;
+  color: #868585;
+  font-family: sans-serif;
+  line-height: 25.89px;
+  text-align: center;
+  padding-bottom: 6.38vh;
 }
 .about_row {
+  display: flex;
+  width: 60vw;
+  margin: 0 auto;
+  
 }
 .about_row_container {
+  flex: 1 1 33.333%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 8px; 
+  
 }
 .about_row_container_img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: #868585 solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
+
 .about_row_container_textTitle {
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3.52px;
+  padding-top: 3.8vh;
 }
 .about_row_container_text {
+  color: #868585;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 3.25vh;
+
 }
 .portfolio {
+  background-color: #eaeaea;
+}
+.portfolio .title {
+  padding-top: 9.9vh;
+  padding-bottom: 3.704vh;
+}
+
+.portfolio .menu {
+  padding-top: 6vh;
 }
 .portfolio_img_container {
 }
@@ -171,6 +286,7 @@ select {
 .partners {
 }
 .partners_title {
+  
 }
 .ourpartners_logo_comtainer {
 }
