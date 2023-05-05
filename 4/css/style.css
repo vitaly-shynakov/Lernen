@@ -269,7 +269,10 @@ select {
 
 }
 .portfolio {
-  background-color: #eaeaea;
+  background-color: #eaeaea; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .portfolio .title {
   padding-top: 9.9vh;
@@ -277,11 +280,45 @@ select {
 }
 
 .portfolio .menu {
-  padding-top: 6vh;
+  margin-top: 35px;
+}
+
+
+
+.portfolio_row {
+  margin-top: 120px;
+  width: 1100px;
+ 
 }
 .portfolio_img_container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -13px;
+  
+  
 }
 .portfolio_img {
+  flex: 0 1 50%;
+  padding: 0 13px 16px 13px;
+  
+  
+  }
+  .portfolio_img_img {
+    height: 365px;
+    background-color: white;
+    text-align: center;
+    padding-top: 135px;
+    font-size: 40px;
+  }
+
+  
+  .portfolio .read_more {
+    border: black 2px solid;
+    margin: 46px auto;
+}
+.portfolio .read_more a {
+  color: black;
 }
 .partners {
 }
